@@ -405,13 +405,13 @@ class Player(pygame.sprite.Sprite):
     def update(self, pressed_keys=None):
         if pressed_keys:
             if pressed_keys[K_a]:  # Gerak ke kiri dengan tombol 'A'
-                self.rect.move_ip(-5, 0)
+                self.rect.move_ip(-20, 0)
             if pressed_keys[K_d]:  # Gerak ke kanan dengan tombol 'D'
-                self.rect.move_ip(5, 0)
+                self.rect.move_ip(20, 0)
             if pressed_keys[K_w]:  # Gerak ke atas dengan tombol 'W'
-                self.rect.move_ip(0, -5)
+                self.rect.move_ip(0, -20)
             if pressed_keys[K_s]:  # Gerak ke bawah dengan tombol 'S'
-                self.rect.move_ip(0, 5)
+                self.rect.move_ip(0, 20)
 
         # Batasi gerakan pemain dalam layar
         if self.rect.left < 0:
