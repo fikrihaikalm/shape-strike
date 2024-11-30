@@ -4,7 +4,7 @@ Shape-Strike adalah sebuah permainan (game) berbasis 2D yang dikembangkan menggu
 
 ## Fitur
 
-- **Kontrol yang Sederhana**: Gunakan tombol `WASD` atau `Arrow Keys` untuk menggerakkan karakter.
+- **Kontrol yang Sederhana**: Gunakan tombol `WASD` atau `Arrow Keys` untuk menggerakkan karakter. Gunakan `JKL` untuk menembak
 - **Karakter dan Objek 2D**: Menggunakan grafik sederhana berbasis Pygame.
 - **Peningkatan Kecepatan**: Kecepatan pergerakan karakter dapat disesuaikan.
 - **Tantangan dan Level**: Rintangan muncul secara acak dan tingkat kesulitan bertambah seiring waktu.
